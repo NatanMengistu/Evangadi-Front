@@ -1,0 +1,65 @@
+/* dashboard.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1495px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.icons1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.questionpage button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.questionpage h3 {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.questionList {
+  padding: 0;
+  list-style-type: none;
+}
+
+.questionList li {
+  padding: 20px 0;
+}
+
+.questionList hr {
+  border: none;
+  border-top: 1.5px solid #ccc; /* Reduced width and increased thickness */
+  margin: 5px 10px;
+}
+
+.questionTitle {
+  font-weight: bold;
+}
+
+.questionDescription {
+  color: #333;
+}

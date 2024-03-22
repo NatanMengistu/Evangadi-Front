@@ -1,0 +1,153 @@
+/* login.module.css */
+
+.div1 {
+  background: url("https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: row; /* Display form and section in a row */
+  justify-content: space-around; /* Add space between form and section */
+  align-items: flex-start; /* Align items at the start */
+  width: 80%; /* Adjust width as needed */
+  max-width: 1200px; /* Maximum width for responsiveness */
+  margin: 0 auto; /* Center the container */
+  padding: 50px; /* Add padding for spacing */
+}
+
+.form {
+  width: 45%; /* Adjust width as needed */
+  padding: 20px; /* Add padding for the form */
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.horizontalSections {
+  width: 40%; /* Adjust width as needed */
+}
+
+.form__group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form__group span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form__group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form__group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.passwordGroup {
+  position: relative;
+}
+.passwordGroup input {
+  padding-right: 40px;
+}
+
+.passwordIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #111;
+  z-index: 1;
+}
+
+.passwordIcon.active {
+  color: #007bff;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.agreeText {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.agreeText span {
+  color: orange;
+}
+
+.linkText {
+  text-align: center;
+  font-size: 14px;
+}
+
+.linkText a {
+  color: orange;
+}
+
+.horizontalSections section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.horizontalSections h2 {
+  color: orange;
+}
+
+.horizontalSections h1 {
+  margin-bottom: 10px;
+}
+
+.horizontalSections p {
+  margin-bottom: 15px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.horizontalSections button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.horizontalSections button:hover {
+  background-color: darkorange;
+}

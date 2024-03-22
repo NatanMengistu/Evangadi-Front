@@ -1,0 +1,132 @@
+.registration__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90vh;
+  padding-top: 20px;
+}
+
+.registration__form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  background-color: #f9f9f9;
+  margin-right: 20px;
+}
+
+.registration__form form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+.registration__form form .form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration__form form .name__group {
+  display: flex;
+  gap: 5px; /* Gap between first and last name */
+  box-sizing: border-box;
+}
+
+.registration__form form .name__group div {
+  flex: 1;
+}
+
+.registration__form form .form__group:not(.name__group) input {
+  padding: 8px 16px;
+  background-color: white;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px; /* Adjusted gap between other fields */
+}
+
+.registration__form form .form__group:not(.name__group):first-of-type input {
+  margin-top: 0; /* Remove margin-top for the first input field */
+}
+
+.registration__form form .form__group:not(.name__group) input:focus {
+  outline: 2px solid skyblue;
+}
+
+.registration__form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration__form button:hover {
+  background-color: darkblue;
+}
+
+.registration__form p {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.registration__form a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: royalblue;
+}
+
+.horizontalSections {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  padding-top: 100px;
+}
+
+.horizontalSections section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.horizontalSections h2 {
+  color: orange;
+}
+
+.horizontalSections h1 {
+  margin-bottom: 10px;
+}
+
+.horizontalSections p {
+  margin-bottom: 15px;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Add this to your register.module.css */
+.password_toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password_toggle svg {
+  width: 20px;
+  height: 20px;
+  color: #ccc; /* Change color as needed */
+}
+
+.bg {
+  background-color: #f5f5f5;
+  background-image: url("https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;  
+}
