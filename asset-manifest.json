@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Evangadi-Front/static/css/main.5b7b6dc3.css",
+    "main.js": "/Evangadi-Front/static/js/main.4900f748.js",
+    "index.html": "/Evangadi-Front/index.html",
+    "main.5b7b6dc3.css.map": "/Evangadi-Front/static/css/main.5b7b6dc3.css.map",
+    "main.4900f748.js.map": "/Evangadi-Front/static/js/main.4900f748.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b7b6dc3.css",
+    "static/js/main.4900f748.js"
+  ]
+}
